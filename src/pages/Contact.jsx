@@ -1,12 +1,16 @@
 import React from 'react'
 import ContactImg from '../containers/ContactSection/ContactImg'
 import ContactForm from '../containers/ContactSection/ContactForm'
+import MapComponent from '../containers/ContactSection/MapComponent'
+import OtherSites from '../containers/ContactSection/OtherSites'
 
 const Contact = () => {
   return (
-    <div className='my-24'>
+    <div className='mt-24 '>
       <ContactImg/>
       <ContactForm/>
+      <MapComponent/>
+      <OtherSites/>
     </div>
   )
 }

@@ -24,9 +24,9 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row  gap-8 px-6 sm:px-8 lg:px-16 py-12 bg-gray-100">
+    <div className="flex flex-col md:flex-row gap-8 px-4 sm:px-8 md:px-16 py-12 bg-gray-100">
       {/* Contact Form */}
-      <div className=" bg-gray-400 shadow-lg p-6 md:p-8 rounded-lg text-white w-full md:w-2/3 mx-4">
+      <div className=" bg-gray-400 shadow-lg p-6 md:p-8 rounded-lg text-white w-full md:w-2/3 md:mx-4">
         <h2 className="text-2xl font-semibold mb-6 text-left">
           Let's Work Together
         </h2>
@@ -122,9 +122,9 @@ const ContactForm = () => {
       </div>
 
       {/* Contact Info */}
-      <div className=" bg-white p-6 shadow-lg rounded-lg w-full md:w-1/3 h-full mx-12">
+      <div className=" bg-white p-6 shadow-lg rounded-lg w-full md:w-1/3 h-full md:mx-8">
         <h2 className="text-2xl font-semibold text-gray-700 mb-6 text-left md:text-left">
-          Contact Us
+          Contact Information
         </h2>
         <div className="text-gray-600 space-y-4">
           <a
