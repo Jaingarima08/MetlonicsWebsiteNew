@@ -4,7 +4,7 @@ import CertificateImg from '../containers/CertificateSection/CertificationImg'
 
 const Certifications = () => {
   return (
-    <div className='mt-24'>
+    <div className='mt-20'>
     <CertificateImg/>
       <CertificateGallery/>
     </div>

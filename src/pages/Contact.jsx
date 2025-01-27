@@ -6,7 +6,7 @@ import OtherSites from '../containers/ContactSection/OtherSites'
 
 const Contact = () => {
   return (
-    <div className='mt-24 '>
+    <div className='mt-20'>
       <ContactImg/>
       <ContactForm/>
       <MapComponent/>

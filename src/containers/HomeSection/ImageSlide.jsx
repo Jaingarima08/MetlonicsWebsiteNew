@@ -20,7 +20,7 @@ const ImageSlide = () => {
   };
 
   return (
-    <div className="w-full min-h-[40vh] md:min-h-[60vh] lg:min-h-[80vh] relative flex justify-center items-center pt-12 md:pt-24 overflow-hidden">
+    <div className="w-full h-[25vh] md:h-[70vh] lg:h-[80vh] relative flex "> 
       {/* Slider Component */}
       <Slider ref={sliderRef} {...settings} className="w-full h-full">
         {/* Slide 1 */}
@@ -28,7 +28,7 @@ const ImageSlide = () => {
           <img
             src={Banner_second}
             alt="Banner_second"
-            className=" inset-0 w-full h-full object-cover"
+            className="  w-full h-[23vh] md:h-[70vh] lg:h-[80vh] object-cover"
           />
         </div>
 
@@ -37,7 +37,7 @@ const ImageSlide = () => {
           <img
             src={Banner_2}
             alt="Banner_2"
-            className=" inset-0 w-full h-full object-cover"
+            className="  w-full h-[23vh] md:h-[70vh] lg:h-[80vh] object-cover"
           />
         </div>
       </Slider>

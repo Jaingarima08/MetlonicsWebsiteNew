@@ -39,26 +39,34 @@ const Footer = () => {
           <div className="mt-2 md:mt-4 ">
             <div>
               <h3 className="font-semibold text-sm sm:text-lg">Head Office</h3>
-              <p className="flex items-start text-xs sm:text-sm ">
+              <a
+               href="https://maps.app.goo.gl/yXeSs1JrxJfhAxcy5"
+              target="_blank"
+              rel="noreferrer"
+               className="flex items-start text-xs sm:text-sm ">
                 <span className="mr-2">
                   <FaMapMarkerAlt />
                 </span>
                 Metlonics Industries Pvt. Ltd., <br />
                 D-105, Industrial Area Phase VII, <br /> Mohali, Punjab, India
                 160055
-              </p>
+              </a>
             </div>
             <div>
               <h3 className="font-semibold mt-1 text-sm sm:text-lg">
                 Work Office
               </h3>
-              <p className="flex items-start text-xs sm:text-sm">
+              <a 
+              href="https://maps.app.goo.gl/3ZcZRSzHQMt5bjGt5"
+              target="_blank"
+              rel="noreferrer"
+               className="flex items-start text-xs sm:text-sm">
                 <span className="mr-2">
                   <FaMapMarkerAlt />
                 </span>
                 Jhingran Road, Village Chanalon <br />
                 Kurali, Punjab, India 140103
-              </p>
+              </a>
             </div>
             <div>
               <h3 className="font-semibold mt-1 text-sm sm:text-lg">

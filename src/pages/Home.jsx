@@ -9,7 +9,7 @@ import ExploreMetlonics from '../containers/HomeSection/ExploreMetlonics'
 const Home = () => {
   return (
     <>
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden mt-20'>
     <ImageSlide/>
     <WelcomeToMetlonics/>
     <OurExpertise/>

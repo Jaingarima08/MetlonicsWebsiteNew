@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { FaLinkedin, FaEnvelope, FaBars, FaTimes } from "react-icons/fa";
 import logo from "../../assets/images/logo.png";
 import { NavLink } from "react-router-dom";
-import LanguageSwitcher from "./LanguageSwitcher";
+// import LanguageSwitcher from "./LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 
 const Header = () => {
@@ -69,9 +69,9 @@ const Header = () => {
                 <span className="hidden md:inline ml-1">{t("Linkedin")}</span>
               </a>
             </div>
-            <div className="text-sm">
-              <LanguageSwitcher /> {/* Language Switcher */}
-            </div>
+            {/* <div className="text-sm">
+              <LanguageSwitcher /> 
+            </div> */}
           </div>
         </div>
 
