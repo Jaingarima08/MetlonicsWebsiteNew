@@ -5,17 +5,17 @@ import WorldMap from "../../assets/images/locationMap"; // Update with correct p
 const locations = [
   {
     id: 1, name: "Metlonics - USA", country: "USA & Canada", code: "USCA001",
-    position: { desktop: { top: "36%", left: "19%" }, mobile: { top: "33%", left: "22%" } },
+    position: { desktop: { top: "34%", left: "12.6%" }, mobile: { top: "29.5%", left: "6.2%" } },
     details: "Country: USA, State: Florida, City: Melbourne, ZIP Code: 32901"
   },
   // {
   //   id: 5, name: "Metlonics Industries Pvt. Ltd.", country: "India", code: "IN002",
-  //   position: { desktop: { top: "36%", left: "67%" }, mobile: { top: "36%", left: "67%" } },
+  //   position: { desktop: { top: "33.4%", left: "57.5%" }, mobile: { top: "28.5%", left: "39.8%" } },
   //   details: "Company: Metlonics Industries Pvt. Ltd., Country: India, State: Punjab, City: Mohali, Area: Industrial Area Phase VII, PIN Code: 160055"
   // },
   {
     id: 6, name: "Metlonics Kurali India", country: "India", code: "IN003",
-    position: { desktop: { top: "35%", left: "68%" }, mobile: { top: "35%", left: "66%" } },
+    position: { desktop: { top: "33%", left: "60.3%" }, mobile: { top: "29%", left: "46%" } },
     details: "Address: Jhingran Road, Village Chanalon, Kurali, Punjab, India, PIN Code: 140103"
   }
 ];
@@ -45,17 +45,17 @@ const MapComponent = () => {
           <div
             key={location.id}
             className={`absolute flex flex-col items-center text-xs md:text-sm font-semibold cursor-pointer transition-all duration-300 ${
-              selectedLocation?.id === location.id ? "text-red-600 font-bold scale-110" : "text-gray-700 hover:text-red-500"
+              selectedLocation?.id === location.id ? "text-red-600 font-bold scale-105" : "text-gray-700 hover:text-red-500"
             }`}
             style={{
               top: isMobile ? location.position.mobile.top : location.position.desktop.top,
               left: isMobile ? location.position.mobile.left : location.position.desktop.left,
-              transform: "translate(-50%, -50%)"
+              
             }}
             onClick={() => setSelectedLocation(location)}
           >
-            <FaLocationDot className="text-xs md:text-2xl transition-transform transform hover:scale-125" />
-            <span className="mt-1 bg-white shadow-md rounded-md px-2 py-1 text-center hidden md:inline-block">{location.name}</span>
+            <FaLocationDot className="text-xs md:text-xl " />
+            <span className="mt-1 text-xs md:text-sm bg-white shadow-md rounded-md px-2 py-1 text-center">{location.name}</span>
           </div>
         ))}
       </div>

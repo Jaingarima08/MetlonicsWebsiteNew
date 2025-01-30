@@ -33,12 +33,12 @@ const Header = () => {
   };
 
   const navLinks = [
-    { path: "/", label: "home" },
-    { path: "/about", label: "about" },
-    { path: "/infrastructure", label: "infrastructure" },
-    { path: "/product", label: "products" },
-    { path: "/certifications", label: "certifications" },
-    { path: "/contact", label: "contact" },
+    { path: "/", label: "Home" },
+    { path: "/about", label: "About us" },
+    { path: "/infrastructure", label: "Infrastructure" },
+    { path: "/product", label: "Products" },
+    { path: "/certifications", label: "Certifications" },
+    { path: "/contact", label: "Contact us" },
   ];
 
   return (

@@ -50,6 +50,7 @@ const AboutSection = () => {
           <img
             src={industry.image}
             alt={industry.title}
+            loading="lazy"
             className="w-full h-56 object-cover"
           />
           <div className="p-4 ">

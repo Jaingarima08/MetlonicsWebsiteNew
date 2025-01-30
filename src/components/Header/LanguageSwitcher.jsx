@@ -23,7 +23,7 @@ const LanguageSwitcher = () => {
     if (savedLanguage) {
       i18n.changeLanguage(savedLanguage); // Set saved language
     }
-  }, []);
+  }, [i18n]);
 
   return (
     <div className="relative inline-block text-left">
